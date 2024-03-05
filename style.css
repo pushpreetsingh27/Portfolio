@@ -1,4 +1,8 @@
 *{margin: 0;padding: 0;box-sizing: border-box;}
+  
+a{
+    cursor: pointer;
+}
 
 .navbar{
     height: 10vh;
@@ -72,3 +76,104 @@ font-size: 20px;
 .fa-twitter{
     color: rgb(39, 129, 202);
 }
+
+#about{
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+#about h2{
+ text-align: center;
+ font-size: 30px;
+
+}
+.container {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between  ;
+}
+.container .left{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
+}
+.container .left h4{
+    font-size: 28px;
+}
+.container .left p{
+    font-size: 20px;
+}
+.container .left .personal-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.container .left .personal-info .row{
+    display: flex;
+     gap:10px;
+     font-size: 20px;
+
+}
+.container .right{
+    width: 30%;
+   padding: 8px;
+
+}
+.container .right h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.container .right .skills {
+display: flex;
+flex-wrap: wrap;
+
+
+}
+.container .right .skills  span{
+  border: 1px solid black;
+  padding: 5px 10px ;
+  margin: 10px;
+}
+
+#project h2{
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#project .container {
+    width: 90%;
+    margin: auto;
+}
+ #project .container .row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.container .row .col{
+   text-align: center;
+}
+.container .row .col img{
+width: 300px;
+border:  1px solid black;
+
+}
+.container .row .col p{
+   
+    width: 70%;
+
+    margin:  10px 0 20px 68px;
+/* text-align: center; */
+}
+.container .row .col a{
+
+
+
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color  : rgb(53, 125, 202);
+  color: whitesmoke;
+}
+
